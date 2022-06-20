@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select your favorite place"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/chkFrance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="France"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkSwiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switzerland"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkMumbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mumbai"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="California"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkMaldives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maldives"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <Button android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:layout_marginTop="20dp"
+        android:onClick="showSelected"/>
+
+</LinearLayout>
